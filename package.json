@@ -1,0 +1,20 @@
+{
+  "name": "eth-lightwallet-demo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "testrpc | http-server"
+  },
+  "author": "Thiago Delgado <thiagodelgado111@gmail.com> (http://github.com/thiagodelgado111)",
+  "dependencies": {
+    "async": "1.5.2",
+    "eth-lightwallet": "2.4.3",
+    "hooked-web3-provider": "1.0.0",
+    "scrypt-async": "1.2.0",
+    "web3": "0.17.0-alpha"
+  },
+  "devDependencies": {
+    "ethereumjs-testrpc": "2.0.9"
+  }
+}
